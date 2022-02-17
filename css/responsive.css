@@ -1,0 +1,61 @@
+/* most low level resulation like galaxy fold */
+
+@media (min-widht: 279px) and (max-widht: 319px) {}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* CSS */
+    /* *******************************************
+*****************global css start*******************
+ */
+    html {
+        overflow: hidden;
+    }
+    .header .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;
+        font-weight: 600;
+        color: #28377e;
+        margin: 0px 0px 5px 0px;
+    }
+    .header .navbar-light .navbar-nav {
+        margin: 5px 0px 0px;
+    }
+    .slider {
+        width: 100%;
+        padding: 100px 0px;
+        background-image: url(../images/slider.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-right: 0;
+    }
+    .what-we-are .inner-img {
+        width: 100%;
+        text-align: right;
+    }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* CSS */
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS */
+}
