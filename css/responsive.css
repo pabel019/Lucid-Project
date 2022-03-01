@@ -1,6 +1,186 @@
 /* most low level resulation like galaxy fold */
 
-@media (min-widht: 279px) and (max-widht: 319px) {}
+@media (min-widht: 279px) and (max-widht: 319px) {
+    .main-menu .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        background: url("../images/double-line.png") left bottom no-repeat;
+        background-size: auto;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        background: url("../images/double-line.png") left bottom no-repeat;
+        background-size: auto;
+    }
+    .banner {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .banner h5 {
+        font-size: 16px;
+        line-height: 26px;
+        color: #008ed6;
+        text-align: center;
+    }
+    .banner h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .banner p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .banner .button-group .btn-primary {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 11px 20px;
+    }
+    .banner .button-group {
+        display: flex;
+        justify-content: center;
+    }
+    .features .title {
+        width: 100%;
+        text-align: center;
+        margin: 0px 0px 30px;
+    }
+    .features .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .about-long {
+        padding: 40px 0px;
+    }
+    .about-long .about-img img {
+        width: 200px;
+        height: 150px;
+        text-align: center;
+        margin: 0px 0px 20px 40px;
+    }
+    .about-long .title {
+        text-align: center;
+    }
+    .about-long p {
+        width: 100%;
+    }
+    .about-sort {
+        padding: 40px 0px;
+    }
+    .about-sort .title {
+        text-align: center;
+    }
+    .about-sort p {
+        width: 100%;
+        text-align: center;
+    }
+    .about-sort .about-sort-img {
+        width: 100%;
+        text-align: center;
+    }
+    .about-sort .about-sort-img img {
+        width: 80%;
+        margin: 20px 0px 0px;
+    }
+    .testimonials {
+        padding: 40px 0px;
+    }
+    .testimonials .title {
+        margin: 0px 0px 30px;
+    }
+    .testimonials .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .I-catcher h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin: 0px 0px 15px;
+    }
+    .I-catcher .button-group {
+        text-align: center;
+    }
+    .I-catcher .button-group .btn-primary {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 11px 20px;
+    }
+    .I-catcher .button-group .btn-light {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 11px 20px;
+    }
+    .price-plan .title {
+        margin: 0px 0px 30px;
+    }
+    .price-plan .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .price-plan .title h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .price-plan {
+        padding: 40px 0px;
+    }
+    .price-plan .price .price-head {
+        padding: 12px 0px;
+    }
+    .price-plan .price .price-head h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .price-plan .price {
+        margin: 0px 0px 30px;
+    }
+    .price-plan .price .inner-price {
+        padding: 25px 0px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .price-plan .price .inner-price h1 {
+        font-size: 46px;
+        line-height: 46px;
+    }
+    .price-plan .price .inner-price sup {
+        margin: 0px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .price-plan .price .inner-price p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .price-plan .price .price-content {
+        padding: 30px 38px 25px;
+    }
+    .contact {
+        padding: 20px 0px 0px;
+    }
+    .contact .title {
+        margin: 0px 0px 30px;
+    }
+    .contact .title h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .contact .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .contact .info img {
+        margin: 0px 0px 15px;
+    }
+    .contact .main-form .text-right {
+        text-align: center;
+    }
+    .contact .main-form .btn-primary {
+        padding: 11px 25px;
+        margin: 15px 0px 0px;
+    }
+}
 
 
 /* 
@@ -13,30 +193,183 @@
     /* *******************************************
 *****************global css start*******************
  */
-    html {
-        overflow: hidden;
+    .main-menu .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        background: url("../images/double-line.png") left bottom no-repeat;
+        background-size: auto;
     }
-    .header .navbar-light .navbar-nav .nav-link {
-        font-size: 12px;
-        font-weight: 600;
-        color: #28377e;
-        margin: 0px 0px 5px 0px;
+    .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        background: url("../images/double-line.png") left bottom no-repeat;
+        background-size: auto;
     }
-    .header .navbar-light .navbar-nav {
-        margin: 5px 0px 0px;
-    }
-    .slider {
+    .banner {
         width: 100%;
-        padding: 100px 0px;
-        background-image: url(../images/slider.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin-right: 0;
+        padding: 40px 0px;
     }
-    .what-we-are .inner-img {
+    .banner h5 {
+        font-size: 16px;
+        line-height: 26px;
+        color: #008ed6;
+        text-align: center;
+    }
+    .banner h1 {
         width: 100%;
-        text-align: right;
+        font-size: 42px;
+        line-height: 52px;
+        text-align: center;
+    }
+    .banner p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .banner .button-group .btn-primary {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 11px 20px;
+    }
+    .banner .button-group {
+        display: flex;
+        justify-content: center;
+    }
+    .features .title {
+        width: 100%;
+        text-align: center;
+        margin: 0px 0px 30px;
+    }
+    .features .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .about-long {
+        padding: 40px 0px;
+    }
+    .about-long .about-img img {
+        width: 70%;
+        text-align: center;
+        margin: 0px 0px 20px 40px;
+    }
+    .about-long .title {
+        text-align: center;
+    }
+    .about-long p {
+        width: 100%;
+    }
+    .about-sort {
+        padding: 40px 0px;
+    }
+    .about-sort .title {
+        text-align: center;
+    }
+    .about-sort p {
+        width: 100%;
+        text-align: center;
+    }
+    .about-sort .about-sort-img {
+        width: 100%;
+        text-align: center;
+    }
+    .about-sort .about-sort-img img {
+        width: 80%;
+        margin: 20px 0px 0px;
+    }
+    .testimonials {
+        padding: 40px 0px;
+    }
+    .testimonials .title {
+        margin: 0px 0px 30px;
+    }
+    .testimonials .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .I-catcher h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin: 0px 0px 15px;
+    }
+    .I-catcher .button-group {
+        text-align: center;
+    }
+    .I-catcher .button-group .btn-primary {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 11px 20px;
+    }
+    .I-catcher .button-group .btn-light {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 11px 20px;
+    }
+    .price-plan .title {
+        margin: 0px 0px 30px;
+    }
+    .price-plan .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .price-plan .title h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .price-plan {
+        padding: 40px 0px;
+    }
+    .price-plan .price .price-head {
+        padding: 12px 0px;
+    }
+    .price-plan .price .price-head h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .price-plan .price {
+        margin: 0px 0px 30px;
+    }
+    .price-plan .price .inner-price {
+        padding: 25px 0px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .price-plan .price .inner-price h1 {
+        font-size: 46px;
+        line-height: 46px;
+    }
+    .price-plan .price .inner-price sup {
+        margin: 0px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .price-plan .price .inner-price p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .price-plan .price .price-content {
+        padding: 30px 38px 25px;
+    }
+    .contact {
+        padding: 20px 0px 0px;
+    }
+    .contact .title {
+        margin: 0px 0px 30px;
+    }
+    .contact .title h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .contact .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .contact .info img {
+        margin: 0px 0px 15px;
+    }
+    .contact .main-form .text-right {
+        text-align: center;
+    }
+    .contact .main-form .btn-primary {
+        padding: 11px 25px;
+        margin: 15px 0px 0px;
     }
 }
 
@@ -48,6 +381,182 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
     /* CSS */
+    .main-menu .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        background: url("../images/double-line.png") left bottom no-repeat;
+        background-size: auto;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        background: url("../images/double-line.png") left bottom no-repeat;
+        background-size: auto;
+    }
+    .banner {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .banner h5 {
+        font-size: 16px;
+        line-height: 26px;
+        color: #008ed6;
+        text-align: center;
+    }
+    .banner h1 {
+        width: 100%;
+        font-size: 42px;
+        line-height: 52px;
+        text-align: center;
+    }
+    .banner p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .banner .button-group .btn-primary {
+        padding: 11px 20px;
+    }
+    .banner .button-group {
+        display: flex;
+        justify-content: center;
+    }
+    .features .title {
+        width: 100%;
+        text-align: center;
+        margin: 0px 0px 30px;
+    }
+    .features .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .about-long {
+        padding: 40px 0px;
+    }
+    .about-long .about-img img {
+        width: 70%;
+        text-align: center;
+        margin: 0px 0px 20px 60px;
+    }
+    .about-long .title {
+        text-align: center;
+    }
+    .about-long p {
+        width: 100%;
+    }
+    .about-sort {
+        padding: 40px 0px;
+    }
+    .about-sort .title {
+        text-align: center;
+    }
+    .about-sort p {
+        width: 100%;
+        text-align: center;
+    }
+    .about-sort .about-sort-img {
+        width: 100%;
+        text-align: center;
+    }
+    .about-sort .about-sort-img img {
+        width: 80%;
+        margin: 20px 0px 0px;
+    }
+    .testimonials {
+        padding: 40px 0px;
+    }
+    .testimonials .title {
+        margin: 0px 0px 30px;
+    }
+    .testimonials .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .I-catcher h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin: 0px 0px 15px;
+    }
+    .I-catcher .button-group {
+        text-align: center;
+    }
+    .I-catcher .button-group .btn-primary {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 11px 20px;
+    }
+    .I-catcher .button-group .btn-light {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 11px 20px;
+    }
+    .price-plan .title {
+        margin: 0px 0px 30px;
+    }
+    .price-plan .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .price-plan .title h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .price-plan {
+        padding: 40px 0px;
+    }
+    .price-plan .price .price-head {
+        padding: 12px 0px;
+    }
+    .price-plan .price .price-head h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .price-plan .price {
+        margin: 0px 0px 30px;
+    }
+    .price-plan .price .inner-price {
+        padding: 25px 0px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .price-plan .price .inner-price h1 {
+        font-size: 46px;
+        line-height: 46px;
+    }
+    .price-plan .price .inner-price sup {
+        margin: 0px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .price-plan .price .inner-price p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .price-plan .price .price-content {
+        padding: 30px 38px 25px;
+    }
+    .contact {
+        padding: 20px 0px 0px;
+    }
+    .contact .title {
+        margin: 0px 0px 30px;
+    }
+    .contact .title h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .contact .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .contact .info img {
+        margin: 0px 0px 15px;
+    }
+    .contact .main-form .text-right {
+        text-align: center;
+    }
+    .contact .main-form .btn-primary {
+        padding: 11px 25px;
+        margin: 15px 0px 0px;
+    }
 }
 
 
@@ -58,4 +567,188 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     /* CSS */
+    .main-menu .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        background: url("../images/double-line.png") center bottom no-repeat;
+        background-size: auto;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        background: url("../images/double-line.png") center bottom no-repeat;
+        background-size: auto;
+    }
+    .banner {
+        width: 100%;
+        padding: 80px 0px;
+    }
+    .banner h5 {
+        font-size: 16px;
+        line-height: 26px;
+        color: #008ed6;
+        text-align: left;
+    }
+    .banner h1 {
+        width: 60%;
+        font-size: 45px;
+        line-height: 55px;
+        text-align: left;
+    }
+    .banner p {
+        width: 60%;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: left;
+    }
+    .banner .button-group {
+        display: flex;
+        justify-content: left;
+    }
+    .features .title {
+        width: 100%;
+        text-align: center;
+        margin: 0px 0px 30px;
+    }
+    .features .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .features .inner-feature p {
+        width: 95%;
+    }
+    .about-long {
+        padding: 60px 0px;
+    }
+    .about-long .about-img img {
+        width: 70%;
+        text-align: center;
+        margin: 0px 0px 20px 40px;
+    }
+    .about-long .title {
+        text-align: center;
+    }
+    .about-long p {
+        width: 100%;
+    }
+    .about-sort {
+        padding: 60px 0px;
+    }
+    .about-sort .title {
+        text-align: center;
+    }
+    .about-sort p {
+        width: 100%;
+        text-align: center;
+    }
+    .about-sort .about-sort-img {
+        width: 100%;
+        text-align: center;
+    }
+    .about-sort .about-sort-img img {
+        width: 80%;
+        margin: 20px 0px 0px;
+    }
+    .testimonials {
+        padding: 60px 0px;
+    }
+    .testimonials .title {
+        margin: 0px 0px 30px;
+    }
+    .testimonials .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .I-catcher h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin: 0px 0px 15px;
+    }
+    .I-catcher .button-group {
+        text-align: center;
+        margin: 10px 0px 0px;
+    }
+    .I-catcher .button-group .btn-primary {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 11px 20px;
+    }
+    .I-catcher .button-group .btn-light {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 11px 20px;
+    }
+    .price-plan .title {
+        margin: 0px 0px 30px;
+    }
+    .price-plan .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .price-plan .title h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .price-plan {
+        padding: 60px 0px;
+    }
+    .price-plan .price .price-head {
+        padding: 15px 0px;
+    }
+    .price-plan .price .price-head h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .price-plan .price {
+        margin: 0px 0px 30px;
+    }
+    .price-plan .price .inner-price {
+        padding: 30px 0px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .price-plan .price .inner-price h1 {
+        font-size: 46px;
+        line-height: 46px;
+    }
+    .price-plan .price .inner-price sup {
+        margin: 0px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .price-plan .price .inner-price p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .price-plan .price .price-content {
+        padding: 30px 38px 25px;
+    }
+    .contact {
+        padding: 40px 0px 0px;
+    }
+    .contact .title {
+        margin: 0px 0px 30px;
+    }
+    .contact .title h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .contact .title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .contact .info img {
+        margin: 0px 0px 15px;
+    }
+    .contact .main-form .message .form-control {
+        padding: 10px 10px 30px;
+    }
+    .contact .main-form .text-right {
+        text-align: right;
+    }
+    .contact .main-form .btn-primary {
+        padding: 11px 25px;
+        margin: 15px 0px 0px;
+    }
+    .contact .main-form .btn-light {
+        padding: 11px 25px;
+        margin: 15px 0px 0px;
+    }
 }
